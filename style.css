@@ -2,6 +2,16 @@
     box-sizing: border-box;
 }
 
+/* .mfr {
+    display: none;
+} */
+
+.All {
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
+}
+
 .main_title {
     display: flex;
     border: aqua 5px solid;
@@ -15,7 +25,22 @@
     display: flex;
     border: rgb(85, 85, 85) 5px solid;
     background-color: rgb(85, 85, 85);
-    justify-content: center;
+}
+
+#sega {
+    justify-content: start;
+}
+
+#nin {
+    flex-direction: row-reverse;
+}
+
+#sony {
+    justify-content: start;
+}
+
+#ms {
+    flex-direction: row-reverse;
 }
 
 .console {
