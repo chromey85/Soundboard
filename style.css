@@ -1,0 +1,32 @@
+* { 
+    box-sizing: border-box;
+}
+
+.main_title {
+    display: flex;
+    border: aqua 5px solid;
+    background: aqua;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.mfr {
+    display: flex;
+    border: rgb(85, 85, 85) 5px solid;
+    background-color: rgb(85, 85, 85);
+    justify-content: center;
+}
+
+.console {
+    display: flex;
+    border: blueviolet 5px Solid;
+    background-color: blueviolet;
+    flex-direction: column;
+}
+
+.game {
+    display: flex;
+    border: blue 5px solid;
+    background-color: blue;
+}
