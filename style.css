@@ -9,7 +9,7 @@
 .All {
     display: flex;
     min-height: 100%;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .main_title {
@@ -22,25 +22,38 @@
 }
 
 .mfr {
-    display: flex;
+    /* display: flex; */
     border: rgb(85, 85, 85) 5px solid;
     background-color: rgb(85, 85, 85);
 }
 
 #sega {
+    display: flex;
     justify-content: start;
+    flex-direction: column;
+    width: 50%;
 }
 
 #nin {
-    flex-direction: row-reverse;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 50%;
 }
 
 #sony {
     justify-content: start;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 50%;
 }
 
 #ms {
-    flex-direction: row-reverse;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 50%;
 }
 
 .console {
