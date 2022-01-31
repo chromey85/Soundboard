@@ -5,11 +5,53 @@
 /* .mfr {
     display: none;
 } */
+/* /* My Attempt at a TV border as background */
+
+/* #tv-background {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 20px;
+    border: 0 solid #000
+}
+
+#tv-static {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    flex-wrap: wrap;
+    z-index: 2;
+    left: 95px;
+    top: 67px;
+    opacity: 0;
+    width: 640px;
+    height: 360px;
+    background: repeating-linear-gradient(0deg, #000, #302e2e 4px, #000)
+}
+
+#tv-stencil {
+    display: flex;
+    position: absolute;
+    z-index: 3;
+    left: 0;
+    top: 50px
+} */
 
 .All {
     display: flex;
-    min-height: 100%;
+    height: 100%;
     flex-wrap: wrap;
+}
+
+img {
+    display: flex;
+    height: 125px;
+    /* width: auto; */
+}
+
+img #ps_logo {
+    width: 90%;
 }
 
 .main_title {
@@ -22,49 +64,110 @@
 }
 
 .mfr {
-    /* display: flex; */
-    border: rgb(85, 85, 85) 5px solid;
-    background-color: rgb(85, 85, 85);
+    display: flex;
+    /* border: rgb(85, 85, 85) 5px solid;
+    background-color: rgb(85, 85, 85); */
 }
+
+/* .mfr #sega {
+        border: rgb(85, 85, 85) 5px solid;
+    background-color: rgb(85, 85, 85);
+} */
 
 #sega {
     display: flex;
-    justify-content: start;
+    /* justify-content: start; */
     flex-direction: column;
+    align-items: center;
     width: 50%;
+    position: absolute;
+    margin-top: 16px;
+    border-color: #17569b solid 5px;
+    background-color: #17569b;
 }
+
+/* #sega_logo {
+    display: flex;
+    height: 50px;
+    width: auto;
+} */
 
 #nin {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    /* align-items: flex-end; */
+    align-items: center;
     width: 50%;
+    position: absolute;
+    right: 8px;
+    /* margin-right: 16px; */
+    margin-top: 16px;
+    border-color: #e4000f solid 5px;
+    background-color: #e4000f;
 }
 
-#sony {
-    justify-content: start;
+/* #nin_logo {
     display: flex;
-    flex-wrap: nowrap;
+    height: 50px;
+    width: auto;
+} */
+
+#sony {
+    /* justify-content: start; */
+    display: flex;
+    align-items: center;
+    /* flex-wrap: nowrap; */
     flex-direction: column;
     width: 50%;
+    position: absolute;
+    bottom: 8px;
+    /* left: 16px; */
+    border-color: #4d4d4d solid 5px;
+    background-color: #4d4d4d;
 }
+
+/* #sony_logo {
+    display: flex;
+    height: 50px;
+    width: auto;
+} */
 
 #ms {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    /* align-items: flex-end; */
+    align-items: center;
     width: 50%;
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    border-color: #107C10 solid 5px;
+    background-color: #107C10;
+    /* padding-right: 16px; */
 }
+
+/* #ms_logo {
+    display: flex;
+    height: 50px;
+    width: auto;
+} */
 
 .console {
     display: flex;
-    border: blueviolet 5px Solid;
-    background-color: blueviolet;
+    /* border: #17569b 5px Solid;
+    background-color: #17569b; */
     flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .game {
     display: flex;
-    border: blue 5px solid;
-    background-color: blue;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    /* border: blue 5px solid;
+    background-color: blue; */
 }
