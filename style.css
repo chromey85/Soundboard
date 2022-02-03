@@ -53,6 +53,10 @@ img {
 img #ps_logo {
     width: 90%;
 }
+.game_img {
+    width: 100px;
+    height: auto;
+}
 
 .main_title {
     display: flex;
