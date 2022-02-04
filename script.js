@@ -1,7 +1,7 @@
 //div
 const all = document.querySelector(".All");
 const text = document.querySelector(".main_title");
-const sms_img = document.querySelector("#sms");
+const sms = document.querySelector("#sms_img");
 const sms1 = document.querySelector(".sms1");
 const sms2 = document.querySelector(".sms2");
 const smd = document.querySelector(".smd");
@@ -37,6 +37,6 @@ document.addEventListener("click", (i) => {
 
 sms.addEventListener("click", () => {
     smss.pause();
-    smss.currrentTime = 0;
+    smss.currentTime = 0;
     smss.play();
 })
