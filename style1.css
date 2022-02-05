@@ -2,11 +2,31 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "retroniod";
+    src: url("/fonts/retronoid-bzx3-webfont.woff") format("woff"),
+    }
+
+@font-face {
+font-family: "retroniod";
+src: url("/fonts/retronoid-n8vy-webfont.woff") format("woff"),
+}
+
+@font-face {
+    font-family: "retroniod";
+    src: url("/fonts/retronoiditalic-8xg2-webfont.woff") format("woff"),
+    }
+
+@font-face {
+    font-family: "retroniod";
+    src: url("/fonts/retronoiditalic-ln9v-webfont.woff") format("woff"),
+    }
+
 .main_title {
     display: flex;
     justify-content: center;
     z-index: 4;
-    font-family: 'Genos', sans-serif;
+    font-family: 'retroniod', Arial, sans-serif;
     font-size: 90px;
     height: 50%;
     margin-top: 400px;
