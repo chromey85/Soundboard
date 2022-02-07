@@ -55,7 +55,7 @@ document.addEventListener("click", (i) => {
 
 const audioPlayer = document.querySelector("audio");
 const consoles = document.querySelectorAll(".console");
-const games = document.querySelectorAll(".games");
+const games = document.querySelectorAll(".game");
 
 function changeAudioTrack(src, autoplay=true) {
     console.log(audioPlayer)
